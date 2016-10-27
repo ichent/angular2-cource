@@ -1,0 +1,9 @@
+<div class="temperatur">
+  <h5 *ngIf="theme">{{themes[theme].title}}</h5>
+  <span *ngIf="theme" class="w-line"></span>
+  <span *ngIf="theme === 'hotels'" class="cloud"></span>
+  <h2 *ngIf="theme">{{themes[theme].temp}}<sup class="degree">°</sup></h2>
+  <h6 *ngIf="theme">Вода {{themes[theme].water}}<sup class="degree">°</sup></h6>
+
+  <h1 *ngIf="!theme">Нет данных</h1>
+</div>
