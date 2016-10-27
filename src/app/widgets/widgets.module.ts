@@ -9,7 +9,6 @@ import { SocialComponent } from './social/social.component';
 @NgModule({
   imports: [CommonModule],
   declarations: [WidgetsComponent, CatalogueComponent, WeatherComponent, SocialComponent],
-//  providers: [PaywallService],
   exports: [WidgetsComponent, CatalogueComponent, WeatherComponent, SocialComponent]
 })
 
